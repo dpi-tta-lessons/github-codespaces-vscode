@@ -118,6 +118,6 @@ You Did It! You’ve gotten the basics of running a GitHub Codespace.
 - ✅ Created a GitHub repository
 - ✅ Launched a Codespace
 - ✅ Ran and edited a static web page
-- ✅Committed and synced your code
+- ✅ Committed and synced your code
 
 You're now coding with GitHub Codespaces — no installation needed.
