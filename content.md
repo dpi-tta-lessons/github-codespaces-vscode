@@ -37,7 +37,7 @@ Then:
 - Click Create repository
 
 <aside class="tip">
-  <strong>Naming convention:</strong> Use lowercase letters and dashes (e.g., `my-first-app`). This style is called <strong>kebab-case</strong> and is commonly used in web development.
+  <strong>Naming convention:</strong> Use lowercase letters and dashes (e.g., <code>my-first-app</code>). This style is called <strong>kebab-case</strong> and is commonly used in web development.
 </aside>
 
 ## Launch a Codespace
@@ -77,8 +77,28 @@ Here’s a quick tour of the layout:
 - **Terminal** (bottom): run commands
 - **Tabs** (top): open files
 
-<aside class="tip"> Shortcut to toggle Terminal: `Ctrl + J` (Windows/Linux) or `Cmd + J` (Mac) </aside>
-<aside class="tip"> Shortcut to toggle Explorer: `Ctrl + B` (Windows/Linux) or `Cmd + B` (Mac) </aside>
+<aside class="tip">
+  Shortcut to toggle Terminal:
+  <ul>
+    <li>
+      <code>Ctrl + J</code> (Windows/Linux)
+    </li>
+    <li>
+      <code>⌘ + J</code> (Mac)
+    </li>
+  </ul>
+</aside>
+<aside class="tip">
+  Shortcut to toggle Explorer:
+  <ul>
+    <li>
+      <code>Ctrl + B</code> (Windows/Linux)
+    </li>
+    <li>
+      <code>⌘ + B</code> (Mac)
+    </li>
+  </ul>
+</aside>
 
 ## Start a Local Server
 
@@ -89,12 +109,16 @@ python -m http.server 3000
 ```
 {: .copyable }
 
-<aside class="tip">This command starts a lightweight web server on port 3000 — ideal for serving static files like HTML and CSS.</aside>
+<aside class="tip">
+  This command starts a lightweight web server on port 3000 — ideal for serving static files like HTML and CSS.
+</aside>
 
 <!-- TODO: screenshot to ports tab -->
 GitHub will show a URL (a "forwarded port") to preview your site.
 
-<aside>📘 [Docs: `http.server`](https://docs.python.org/3/library/http.server.html)</aside>
+<aside>
+  📘 [Docs: `http.server`](https://docs.python.org/3/library/http.server.html)
+</aside>
 
 <!-- TODO: public/private ports (visibility)-->
 
@@ -111,7 +135,9 @@ Create a new file named `index.html` and add:
 
 Refresh the preview to see it live.
 
-<aside>Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like of table of contents for your website.</aside>
+<aside>
+  Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like of table of contents for your website.
+</aside>
 
 ## Create a `bin/server` Script
 
@@ -145,7 +171,9 @@ bin/server
 ```
 {: .copyable }
 
-<aside class="tip">The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use. (in our case, python)</aside>
+<aside class="tip">
+  The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use. (in our case, python)
+</aside>
 
 ## Save Your Work with Git
 
@@ -171,7 +199,9 @@ Click the Source Control icon (looks like a branch)
 - Click ✓ to commit
 - Click Sync Changes
 
-<aside>Committing your code saves a snapshot. Pushing it sends that snapshot to GitHub where it can be safely stored long term.</aside>
+<aside>
+  Committing your code saves a snapshot. Pushing it sends that snapshot to GitHub where it can be safely stored long term.
+</aside>
 
 Your code is now saved online!
 
