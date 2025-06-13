@@ -43,7 +43,9 @@ Then:
 </aside>
 
 ## Launch a Codespace
-<!-- TODO: screenshot -->
+
+![create codespace on main](assets/create-codespace-on-main.png)
+
 Go to your new repo and:
 
 - Click the green "Code" button
@@ -57,7 +59,9 @@ Your browser will open a full development environment, no installs required!
 </aside>
 
 ## Explore the Codespace
-<!-- TODO: add screenshot -->
+
+![codespace layout](assets/vscode.png)
+
 Here’s a quick tour of the layout:
 
 - **Explorer** (left panel): your files
@@ -90,6 +94,8 @@ Here’s a quick tour of the layout:
 
 ## Start a Local Server
 
+<video src="assets/starting-http-server-and-port.mp4" width="480" autoplay loop muted playsinline></video>
+
 In the terminal, type:
 
 ```bash
@@ -101,20 +107,43 @@ python -m http.server 3000
   This command starts a lightweight web server on port 3000 — ideal for serving static files like HTML and CSS.
 </aside>
 
-<!-- TODO: screenshot to ports tab -->
-GitHub will show a URL (a "forwarded port") to preview your site.
-
 <aside>
   <a href="https://docs.python.org/3/library/http.server.html" target="_blank">📘 Docs: http.server</a>
 </aside>
 
+GitHub will show a URL (a "forwarded port") to preview your site. Click the ports tab in the bottom panel. Click on the 🌐 icon to open your app in a browser.
+
+![ports tab](assets/ports.png)
+
 <aside class="tip">
-  If you'd like to access your app from any device, set the forwarded port to <strong>public</strong> in the Ports tab. This way you can access your app from your phone and share the link with friends.
+  If you'd like to access your app from any device, set the port visibility to <strong>public</strong>. This way you can access your app from your phone and share the link with friends.
 </aside>
 
-<!-- TODO: screenshot of browser (just directory, no index.html) -->
+<aside class="tip">
+
+<img src="assets/directory-listing.png" alt="server directory listing">
+
+When you visit your Codespace preview and see <code>Directory listing for /</code>, it means your web server is running, but there’s no <code>index.html</code> file present.
+
+Web servers look for a default file to show — usually <code>index.html</code>. If it’s missing, the server shows a list of files and folders in your project instead. This is called a "directory listing".
+
+Once you add <code>index.html</code>, that file will be shown automatically instead of the listing.
+
+</aside>
+
+<aside class="tip">
+  Stop your server by entering <code>Ctrl + C</code> in the terminal. This works with most terminal processes. If all else fails, you can also close the terminal running the process.
+</aside>
+
+<aside class="tip">
+  <img src="assets/create-kill-terminal.png" alt="Create or Kill Terminal Instance">
+
+  In the terminal tab, click `+` to create additional terminal instances. You can also click the trash icon to destroy the terminal instance.
+</aside>
 
 ## Add an index.html Page
+
+<video src="assets/create-index-html.mp4" width="480" autoplay loop muted playsinline></video>
 
 Create a new file named `index.html` and add:
 
@@ -129,17 +158,24 @@ Refresh the preview to see it live.
   Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like a "table of contents" for your website.
 </aside>
 
+<aside class="tip">
+  Use the vs code explorer 'new file' and 'new folder' buttons.
+
+  <img src="assets/explorer-new-file-folder.png" alt="vscode explorer new file / folder">
+</aside>
+
 ## Create a `bin/server` Script
+
+<video src="assets/create-bin-server.mp4" width="480" autoplay loop muted playsinline></video>
 
 Let’s automate our server start-up.
 
-<!-- TODO add screenshot -->
 Make a folder called `bin`. Inside `bin`, create a file called `server`.
 
 Paste this code:
 
 ```bash
-#!/usr/bin/env python
+#!/usr/bin/env bash
 
 python -m http.server 3000
 ```
@@ -164,7 +200,7 @@ bin/server
 {: .copyable }
 
 <aside class="tip">
-  The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use. (in our case, python)
+  The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use for the script. (in our case, <code>bash</code>, the same shell we use in the terminal)
 </aside>
 
 ## Save Your Work with Git
@@ -172,6 +208,8 @@ bin/server
 <aside class="warning">
   Codespaces are temporary environments. Saving your code is not enough, you must commit and push to GitHub to avoid losing your work.
 </aside>
+
+<!-- TODO: show how to see the diff -->
 
 There are two ways to save your work to GitHub:
 
@@ -205,6 +243,9 @@ Click the Source Control icon (looks like a branch)
 </aside>
 
 Your code is now saved online!
+
+<!-- TODO: add general tip on writing commit messages -->
+<!-- TODO: add warning on COMMIT_EDITMSG when you forget to write a commit message -->
 
 ## Manage Codespaces (and Credits)
 
