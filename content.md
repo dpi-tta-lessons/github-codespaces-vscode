@@ -78,7 +78,7 @@ Here’s a quick tour of the layout:
 - **Tabs** (top): open files
 
 <aside class="tip">
-  Shortcut to toggle Terminal:
+  Shortcut to toggle <strong>Terminal</strong>:
   <ul>
     <li>
       <code>Ctrl + J</code> (Windows/Linux)
@@ -89,7 +89,7 @@ Here’s a quick tour of the layout:
   </ul>
 </aside>
 <aside class="tip">
-  Shortcut to toggle Explorer:
+  Shortcut to toggle <strong>Explorer</strong>:
   <ul>
     <li>
       <code>Ctrl + B</code> (Windows/Linux)
@@ -117,7 +117,7 @@ python -m http.server 3000
 GitHub will show a URL (a "forwarded port") to preview your site.
 
 <aside>
-  📘 [Docs: `http.server`](https://docs.python.org/3/library/http.server.html)
+  <a href="https://docs.python.org/3/library/http.server.html" target="_blank">📘 Docs: http.server</a>
 </aside>
 
 <!-- TODO: public/private ports (visibility)-->
@@ -136,7 +136,7 @@ Create a new file named `index.html` and add:
 Refresh the preview to see it live.
 
 <aside>
-  Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like of table of contents for your website.
+  Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like a "table of contents" for your website.
 </aside>
 
 ## Create a `bin/server` Script
