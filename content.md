@@ -272,12 +272,7 @@ You now have a live web development environment in the cloud!
 
 ## Practice Challenge
 
-Try modifying your homepage:
-
 - Add an `<h2>` subtitle
 - Include a `<p>` paragraph with a message
 - Use the terminal to commit and push your changes
-
-<aside class="tip">
-  Want to go further? Try creating additional HTML files (like <code>about.html</code>) and open them at <code>/about.html</code> in your browser.
-</aside>
+- Try creating additional HTML files (like `about.html`) and open them at `/about.html` in your browser.
