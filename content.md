@@ -19,12 +19,15 @@ Already have an account? You're good to go!
 
 ## Create a Repository
 
+<video src="assets/create-repo-from-template.mp4" width="480" autoplay loop muted playsinline></video>
+
 A repository (or "repo") is where your project lives.
 
 We’ve made a starter project template for you: 👉 <a href="https://github.com/dpi-tta-projects/static-html-template" target="_blank">static-html-template</a>
 
-<!-- TODO: add screenshot -->
 Click "Use this template" to begin.
+
+![use this template button](assets/use-this-template.png)
 
 Then:
 
@@ -33,7 +36,6 @@ Then:
 
 <aside class="warning">You'll need to make your repository "public" in order for others to access your repository.</aside>
 
-- Keep "Add a README" unchecked — the template includes one
 - Click Create repository
 
 <aside class="tip">
@@ -49,6 +51,10 @@ Go to your new repo and:
 - Click "Create codespace on main"
 
 Your browser will open a full development environment, no installs required!
+
+<aside class="warning">
+  Be patient. The first time you load a codespace may take a few minutes. Subsequent loads will be much faster.
+</aside>
 
 ## Explore the Codespace
 <!-- TODO: add screenshot -->
