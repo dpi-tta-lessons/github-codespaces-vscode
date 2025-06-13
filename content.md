@@ -21,7 +21,7 @@ Already have an account? You're good to go!
 
 A repository (or "repo") is where your project lives.
 
-We’ve made a starter project template for you: 👉 [static-html-template](https://github.com/dpi-tta-projects/static-html-template)
+We’ve made a starter project template for you: 👉 <a href="https://github.com/dpi-tta-projects/static-html-template" target="_blank">static-html-template</a>
 
 <!-- TODO: add screenshot -->
 Click "Use this template" to begin.
