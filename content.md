@@ -12,7 +12,7 @@ By the end of this lesson, you’ll have a live static website running in a GitH
 
 First, you'll need a GitHub account.
 
-- Go to [https://github.com](https://github.com)
+- Go to <a href="https://github.com" target="_blank">https://github.com</a>
 - Click "Sign up" and follow the prompts
 
 Already have an account? You're good to go!
