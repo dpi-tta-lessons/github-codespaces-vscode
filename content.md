@@ -60,9 +60,9 @@ Your browser will open a full development environment, no installs required!
 <!-- TODO: add screenshot -->
 Here’s a quick tour of the layout:
 
-- **Explorer** (left): your files
-- **Editor** (center): where you write code
-- **Terminal** (bottom): run commands
+- **Explorer** (left panel): your files
+- **Editor** (center panel): where you write code
+- **Terminal** (bottom panel): run commands
 - **Tabs** (top): open files
 
 <aside class="tip">
