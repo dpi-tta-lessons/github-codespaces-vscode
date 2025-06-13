@@ -210,7 +210,13 @@ bin/server
   Codespaces are temporary environments. Saving your code is not enough, you must commit and push to GitHub to avoid losing your work.
 </aside>
 
-<!-- TODO: show how to see the diff -->
+You'll notice your new files will appear in <span class="text-success">green</span> color.
+
+![explorer diff green](assets/explorer-diff.png)
+
+The source control tab in the left pane will also indicate that you have '2 pending changes'.
+
+![source control indicator](assets/source-control-indicator.png)
 
 There are two ways to save your work to GitHub:
 
@@ -222,22 +228,26 @@ Both methods achieve the same result.
 ### In the terminal
 
 <!-- TODO: screenshot -->
-
+<!-- TODO: show how to see the diff -->
+<!-- TODO: note on staging each file (vs all) -->
 ```bash
 git add .
-git commit -m "Add homepage and hello world"
+git commit -m "Add index.html with hello world and bin/server script"
 git push
 ```
 {: .copyable }
 
 ### In the VS Code Source Control Tab
 
-<!-- TODO: screenshot -->
-Click the Source Control icon (looks like a branch)
+<video src="assets/source-control-tab-commit-push-sync.mp4" width="480" autoplay loop muted playsinline></video>
 
-- Write a commit message
-- Click ✓ to commit
-- Click Sync Changes
+![source control icon](assets/source-control-icon.png)
+Click the Source Control icon (looks like a branch).
+
+- Write a commit message "Add index.html with hello world and bin/server script"
+- Stage the files you want to commit (click the '+' next to each file)
+- Click '✓ Commit' to commit
+- Click 'Sync Changes' to push to GitHub
 
 <aside>
   Committing your code saves a snapshot. Pushing it sends that snapshot to GitHub where it can be safely stored long term.
@@ -250,6 +260,7 @@ Your code is now saved online!
 
 ## Manage Codespaces (and Credits)
 
+<!-- TODO: add screenshot -->
 Each GitHub user gets limited free hours for Codespaces. To manage or delete your environments:
 
 - Go to [https://github.com/codespaces](https://github.com/codespaces)
