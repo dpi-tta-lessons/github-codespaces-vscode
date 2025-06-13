@@ -4,7 +4,7 @@ Start coding in the cloud with GitHub’s powerful, browser-based editor.
 
 ## Goal
 
-By the end of this lesson, you’ll have a live static website running in a GitHub Codespace — all from your browser.
+By the end of this lesson, you’ll have a live static website running in a GitHub Codespace, all from your browser.
 
 <!-- TODO: screenshot -->
 
@@ -12,7 +12,7 @@ By the end of this lesson, you’ll have a live static website running in a GitH
 
 First, you'll need a GitHub account.
 
-- Go to https://github.com
+- Go to [https://github.com](https://github.com)
 - Click "Sign up" and follow the prompts
 
 Already have an account? You're good to go!
@@ -21,14 +21,14 @@ Already have an account? You're good to go!
 
 A repository (or "repo") is where your project lives.
 
-We’ve made a starter project for you: 👉 [static-html-template](https://github.com/dpi-tta-projects/static-html-template)
+We’ve made a starter project template for you: 👉 [static-html-template](https://github.com/dpi-tta-projects/static-html-template)
 
 <!-- TODO: add screenshot -->
-Click Use this template to begin.
+Click "Use this template" to begin.
 
 Then:
 
-- Name your repo (e.g., my-first-app)
+- Name your repo (e.g., `my-first-app`)
 - Set visibility: Public or Private
 
 <aside class="warning">You'll need to make your repository "public" in order for instructors to see your code.</aside>
@@ -36,17 +36,19 @@ Then:
 - Keep "Add a README" unchecked — the template includes one
 - Click Create repository
 
-<aside class="tip"> **Naming convention:** Use lowercase letters and dashes (e.g., `my-first-app`). This style is called **kebab-case** and is commonly used in web development. </aside>
+<aside class="tip">
+  <strong>Naming convention:</strong> Use lowercase letters and dashes (e.g., `my-first-app`). This style is called <strong>kebab-case</strong> and is commonly used in web development.
+</aside>
 
 ## Launch a Codespace
 <!-- TODO: screenshot -->
 Go to your new repo and:
 
-- Click the green Code button
-- Select the Codespaces tab
-- Click Create codespace on main
+- Click the green "Code" button
+- Select the "Codespaces" tab
+- Click "Create codespace on main"
 
-Your browser will open a full development environment — no installs required!
+Your browser will open a full development environment, no installs required!
 
 <!-- 
 
@@ -70,13 +72,13 @@ TODO: Managing Your Codespaces (and credits)
 <!-- TODO: add screenshot -->
 Here’s a quick tour of the layout:
 
-- Explorer (left): your files
-- Editor (center): where you write code
-- Terminal (bottom): run commands
-- Tabs (top): open files/terminals
+- **Explorer** (left): your files
+- **Editor** (center): where you write code
+- **Terminal** (bottom): run commands
+- **Tabs** (top): open files
 
-<aside class="tip"> Shortcut to show/hide Terminal: `Ctrl + J` (Windows/Linux) or `Cmd + J` (Mac) </aside>
-<aside class="tip"> Shortcut to show/hide Explorer: `Ctrl + B` (Windows/Linux) or `Cmd + B` (Mac) </aside>
+<aside class="tip"> Shortcut to toggle Terminal: `Ctrl + J` (Windows/Linux) or `Cmd + J` (Mac) </aside>
+<aside class="tip"> Shortcut to toggle Explorer: `Ctrl + B` (Windows/Linux) or `Cmd + B` (Mac) </aside>
 
 ## Start a Local Server
 
@@ -85,7 +87,7 @@ In the terminal, type:
 ```bash
 python -m http.server 3000
 ```
-{: copyable }
+{: .copyable }
 
 <aside class="tip">This command starts a lightweight web server on port 3000 — ideal for serving static files like HTML and CSS.</aside>
 
@@ -105,20 +107,18 @@ Create a new file named `index.html` and add:
 ```html
 <h1>Hello, world!</h1>
 ```
-{: copyable }
+{: .copyable }
 
 Refresh the preview to see it live.
 
-<aside>Why `index.html`? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like of table of contents for your website.</aside>
+<aside>Why <code>index.html</code>? It’s the default page that web servers serve when you visit a folder path like `/`. Think of it like of table of contents for your website.</aside>
 
-## Create a bin/server Script
+## Create a `bin/server` Script
 
 Let’s automate our server start-up.
 
 <!-- TODO add screenshot -->
-Make a folder called `bin`
-
-Inside, create a file called `server`
+Make a folder called `bin`. Inside `bin`, create a file called `server`.
 
 Paste this code:
 
@@ -127,14 +127,14 @@ Paste this code:
 
 python -m http.server 3000
 ```
-{: copyable }
+{: .copyable }
 
 In terminal, run:
 
 ```bash
 chmod +x bin/server
 ```
-{: copyable }
+{: .copyable }
 
 <!-- TODO: add aside on what `chmod` is doing here -->
 
@@ -143,9 +143,9 @@ Now you can start your server using this script by typing `bin/server` in the te
 ```bash
 bin/server
 ```
-{: copyable }
+{: .copyable }
 
-<aside class="tip">The `bin/` folder is a convention for small executable scripts. The `#!/usr/bin/env` line (a "shebang") tells the system which interpreter to use. (in our case, python)</aside>
+<aside class="tip">The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use. (in our case, python)</aside>
 
 ## Save Your Work with Git
 
@@ -153,12 +153,14 @@ bin/server
 
 ### In the terminal
 
+<!-- TODO: screenshot -->
+
 ```bash
 git add .
 git commit -m "Add homepage and hello world"
 git push
 ```
-{: copyable }
+{: .copyable }
 
 ### In the VS Code Source Control Tab
 
@@ -169,7 +171,7 @@ Click the Source Control icon (looks like a branch)
 - Click ✓ to commit
 - Click Sync Changes
 
-<aside>Committing your code saves a snapshot. Pushing it sends that snapshot to GitHub.</aside>
+<aside>Committing your code saves a snapshot. Pushing it sends that snapshot to GitHub where it can be safely stored long term.</aside>
 
 Your code is now saved online!
 
