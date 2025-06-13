@@ -203,6 +203,7 @@ bin/server
   The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use for the script. (in our case, <code>bash</code>, the same shell we use in the terminal)
 </aside>
 
+<!-- TODO: refine this section (version control) -->
 ## Save Your Work with Git
 
 <aside class="warning">
