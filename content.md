@@ -50,24 +50,6 @@ Go to your new repo and:
 
 Your browser will open a full development environment, no installs required!
 
-<!-- 
-
-## GitHub Codespaces
-
-**Codespaces** are full coding environments in the cloud. Think of them like temporary coding computers that live in your browser.
-
-They use [Visual Studio Code](https://code.visualstudio.com/) (VS Code) behind the scenes — no downloads needed.
-
-### Why use Codespaces?
-
-- No setup required
-- Works on any device that can run a web browser
-- All your code and environment in one place 
-
-TODO: explain how saving in codespace is not sufficient. consider them disposable.
-TODO: Managing Your Codespaces (and credits)
--->
-
 ## Explore the Codespace
 <!-- TODO: add screenshot -->
 Here’s a quick tour of the layout:
@@ -120,7 +102,9 @@ GitHub will show a URL (a "forwarded port") to preview your site.
   <a href="https://docs.python.org/3/library/http.server.html" target="_blank">📘 Docs: http.server</a>
 </aside>
 
-<!-- TODO: public/private ports (visibility)-->
+<aside class="tip">
+  If you'd like to access your app from any device, set the forwarded port to <strong>public</strong> in the Ports tab. This way you can access your app from your phone and share the link with friends.
+</aside>
 
 <!-- TODO: screenshot of browser (just directory, no index.html) -->
 
@@ -162,7 +146,9 @@ chmod +x bin/server
 ```
 {: .copyable }
 
-<!-- TODO: add aside on what `chmod` is doing here -->
+<aside class="tip">
+  The <code>chmod +x</code> command makes your script executable, meaning you can run it like a regular program.
+</aside>
 
 Now you can start your server using this script by typing `bin/server` in the terminal and hitting enter.
 
@@ -177,7 +163,16 @@ bin/server
 
 ## Save Your Work with Git
 
-<!-- TODO: explain what we're doing here and that you have 2 options -->
+<aside class="warning">
+  Codespaces are temporary environments. Saving your code is not enough, you must commit and push to GitHub to avoid losing your work.
+</aside>
+
+There are two ways to save your work to GitHub:
+
+1. Use Git commands in the terminal (if you're comfortable with the command line)
+2. Use the VS Code Source Control Tab (beginner-friendly)
+
+Both methods achieve the same result.
 
 ### In the terminal
 
@@ -205,6 +200,17 @@ Click the Source Control icon (looks like a branch)
 
 Your code is now saved online!
 
+## Manage Codespaces (and Credits)
+
+Each GitHub user gets limited free hours for Codespaces. To manage or delete your environments:
+
+- Go to [https://github.com/codespaces](https://github.com/codespaces)
+- Click the "..." next to a Codespace to stop or delete it
+
+<aside class="tip">
+  Deleting unused Codespaces frees up your quota and prevents unnecessary charges.
+</aside>
+
 ## Recap
 
 You just:
@@ -224,4 +230,7 @@ Try modifying your homepage:
 - Add an `<h2>` subtitle
 - Include a `<p>` paragraph with a message
 - Use the terminal to commit and push your changes
-<!-- TODO: Adding multiple html files and access the paths -->
+
+<aside class="tip">
+  Want to go further? Try creating additional HTML files (like <code>about.html</code>) and open them at <code>/about.html</code> in your browser.
+</aside>
