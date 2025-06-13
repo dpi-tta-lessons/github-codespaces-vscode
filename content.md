@@ -19,7 +19,7 @@ Already have an account? You're good to go!
 
 ## Create a Repository
 
-<video src="assets/create-repo-from-template.mp4" width="480" autoplay loop muted playsinline></video>
+<video src="assets/create-repo-from-template.mp4" autoplay loop muted playsinline></video>
 
 A repository (or "repo") is where your project lives.
 
@@ -32,7 +32,7 @@ Click "Use this template" to begin.
 Then:
 
 - Name your repo (e.g., `my-first-app`)
-- Set visibility: Public or Private
+- Set visibility: **Public** or **Private**
 
 <aside class="warning">You'll need to make your repository "public" in order for others to access your repository.</aside>
 
@@ -94,7 +94,7 @@ Here’s a quick tour of the layout:
 
 ## Start a Local Server
 
-<video src="assets/starting-http-server-and-port.mp4" width="480" autoplay loop muted playsinline></video>
+<video src="assets/starting-http-server-and-port.mp4" autoplay loop muted playsinline></video>
 
 In the terminal, type:
 
@@ -143,7 +143,7 @@ Once you add <code>index.html</code>, that file will be shown automatically inst
 
 ## Add an index.html Page
 
-<video src="assets/create-index-html.mp4" width="480" autoplay loop muted playsinline></video>
+<video src="assets/create-index-html.mp4" autoplay loop muted playsinline></video>
 
 Create a new file named `index.html` and add:
 
@@ -166,7 +166,7 @@ Refresh the preview to see it live.
 
 ## Create a `bin/server` Script
 
-<video src="assets/create-bin-server.mp4" width="480" autoplay loop muted playsinline></video>
+<video src="assets/create-bin-server.mp4" autoplay loop muted playsinline></video>
 
 Let’s automate our server start-up.
 
@@ -239,7 +239,7 @@ git push
 
 ### In the VS Code Source Control Tab
 
-<video src="assets/source-control-tab-commit-push-sync.mp4" width="480" autoplay loop muted playsinline></video>
+<video src="assets/source-control-tab-commit-push-sync.mp4" autoplay loop muted playsinline></video>
 
 ![source control icon](assets/source-control-icon.png)
 Click the Source Control icon (looks like a branch).
