@@ -276,4 +276,5 @@ You now have a live web development environment in the cloud!
 - Add an `<h2>` subtitle
 - Include a `<p>` paragraph with a message
 - Use the terminal to commit and push your changes
-- Try creating additional HTML files (like `about.html`) and open them at `/about.html` in your browser.
+- Create additional HTML files (like `about.html`) and open them at `/about.html` in your browser.
+- Bonus: Link to your new pages using `<a>` links
