@@ -31,7 +31,7 @@ Then:
 - Name your repo (e.g., `my-first-app`)
 - Set visibility: Public or Private
 
-<aside class="warning">You'll need to make your repository "public" in order for instructors to see your code.</aside>
+<aside class="warning">You'll need to make your repository "public" in order for others to see the code in your repository.</aside>
 
 - Keep "Add a README" unchecked — the template includes one
 - Click Create repository
