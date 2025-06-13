@@ -69,6 +69,7 @@ Here’s a quick tour of the layout:
 - **Terminal** (bottom panel): run commands
 - **Tabs** (top): open files
 
+<!-- TODO: add gif showing toggling -->
 <aside class="tip">
   Shortcut to toggle <strong>Terminal</strong>:
   <ul>
@@ -80,6 +81,8 @@ Here’s a quick tour of the layout:
     </li>
   </ul>
 </aside>
+
+<!-- TODO: add gif showing toggling -->
 <aside class="tip">
   Shortcut to toggle <strong>Explorer</strong>:
   <ul>
@@ -241,8 +244,9 @@ git push
 
 <video src="assets/source-control-tab-commit-push-sync.mp4" autoplay loop muted playsinline></video>
 
-![source control icon](assets/source-control-icon.png)
 Click the Source Control icon (looks like a branch).
+
+![source control icon](assets/source-control-icon.png)
 
 - Write a commit message "Add index.html with hello world and bin/server script"
 - Stage the files you want to commit (click the '+' next to each file)
