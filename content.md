@@ -6,7 +6,7 @@ Start coding in the cloud with GitHub’s powerful, browser-based editor.
 
 By the end of this lesson, you’ll have a live static website running in a GitHub Codespace, all from your browser.
 
-<!-- TODO: screenshot -->
+<video src="assets/goal-completed.mp4" autoplay loop muted playsinline></video>
 
 ## Set Up GitHub
 
