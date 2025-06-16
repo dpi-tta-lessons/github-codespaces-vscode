@@ -69,7 +69,6 @@ Here’s a quick tour of the layout:
 - **Terminal** (bottom panel): run commands
 - **Tabs** (top): open files
 
-<!-- TODO: add gif showing toggling -->
 <aside class="tip">
   Shortcut to toggle <strong>Terminal</strong>:
   <ul>
@@ -80,9 +79,9 @@ Here’s a quick tour of the layout:
       <code>⌘ + J</code> (Mac)
     </li>
   </ul>
+  <video src="assets/shortcut-toggle-terminal.mp4" autoplay loop muted playsinline></video>
 </aside>
 
-<!-- TODO: add gif showing toggling -->
 <aside class="tip">
   Shortcut to toggle <strong>Explorer</strong>:
   <ul>
@@ -93,6 +92,7 @@ Here’s a quick tour of the layout:
       <code>⌘ + B</code> (Mac)
     </li>
   </ul>
+  <video src="assets/shortcut-toggle-explorer.mp4" autoplay loop muted playsinline></video>
 </aside>
 
 ## 4. Start a Local Server
