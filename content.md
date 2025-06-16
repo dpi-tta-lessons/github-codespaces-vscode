@@ -17,7 +17,7 @@ First, you'll need a GitHub account.
 
 Already have an account? You're good to go!
 
-## Create a Repository
+## 1. Create a Repository
 
 <video src="assets/create-repo-from-template.mp4" autoplay loop muted playsinline></video>
 
@@ -42,7 +42,7 @@ Then:
   <strong>Naming convention:</strong> Use lowercase letters and dashes (e.g., <code>my-first-app</code>). This style is called <strong>kebab-case</strong> and is commonly used in web development.
 </aside>
 
-## Launch a Codespace
+## 2. Launch a Codespace
 
 ![create codespace on main](assets/create-codespace-on-main.png)
 
@@ -58,7 +58,7 @@ Your browser will open a full development environment, no installs required!
   Be patient. The first time you load a codespace may take a few minutes. Subsequent loads will be much faster.
 </aside>
 
-## Explore the Codespace
+## 3. Explore the Codespace
 
 ![codespace layout](assets/vscode.png)
 
@@ -95,7 +95,7 @@ Here’s a quick tour of the layout:
   </ul>
 </aside>
 
-## Start a Local Server
+## 4. Start a Local Server
 
 <video src="assets/starting-http-server-and-port.mp4" autoplay loop muted playsinline></video>
 
@@ -144,7 +144,7 @@ Once you add <code>index.html</code>, that file will be shown automatically inst
   In the terminal tab, click `+` to create additional terminal instances. You can also click the trash icon to destroy the terminal instance.
 </aside>
 
-## Add an index.html Page
+## 5. Add an index.html Page
 
 <video src="assets/create-index-html.mp4" autoplay loop muted playsinline></video>
 
@@ -167,7 +167,7 @@ Refresh the preview to see it live.
   <img src="assets/explorer-new-file-folder.png" alt="vscode explorer new file / folder">
 </aside>
 
-## Create a `bin/server` Script
+## 6. Create a `bin/server` Script
 
 <video src="assets/create-bin-server.mp4" autoplay loop muted playsinline></video>
 
@@ -207,7 +207,8 @@ bin/server
 </aside>
 
 <!-- TODO: refine this section (version control) -->
-## Save Your Work with Git
+
+## 7. Save Your Work with Git
 
 <aside class="warning">
   Codespaces are temporary environments. Saving your code is not enough, you must commit and push to GitHub to avoid losing your work.
@@ -262,6 +263,7 @@ Your code is now saved online!
 <!-- TODO: add general tip on writing commit messages -->
 <!-- TODO: add warning on COMMIT_EDITMSG when you forget to write a commit message -->
 
+<!-- TODO: move to aside? -->
 ## Manage Codespaces (and Credits)
 
 <!-- TODO: add screenshot -->
