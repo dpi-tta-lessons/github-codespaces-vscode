@@ -260,6 +260,8 @@ Click the Source Control icon (looks like a branch).
 
 Your code is now saved online!
 
+<!-- TODO: add screenshot of github to show how the code is now in GitHub -->
+
 <!-- TODO: add general tip on writing commit messages -->
 <!-- TODO: add warning on COMMIT_EDITMSG when you forget to write a commit message -->
 
