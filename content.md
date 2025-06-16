@@ -224,24 +224,15 @@ The source control tab in the left pane will also indicate that you have '2 pend
 
 There are two ways to save your work to GitHub:
 
-1. Use Git commands in the terminal (if you're comfortable with the command line)
-2. Use the VS Code Source Control Tab (beginner-friendly)
+1. Use the VS Code Source Control Tab (beginner-friendly)
+2. Use Git commands in the terminal (if you're comfortable with the command line)
 
 Both methods achieve the same result.
 
-### In the terminal
+<!-- TODO: aside on staging, then committing process -->
+<!-- TODO: aside on writing good commit messages -->
 
-<!-- TODO: screenshot -->
-<!-- TODO: show how to see the diff -->
-<!-- TODO: note on staging each file (vs all) -->
-```bash
-git add .
-git commit -m "Add index.html with hello world and bin/server script"
-git push
-```
-{: .copyable }
-
-### In the VS Code Source Control Tab
+### 7.1 (a) In the VS Code Source Control Tab
 
 <video src="assets/source-control-tab-commit-push-sync.mp4" autoplay loop muted playsinline></video>
 
@@ -260,10 +251,116 @@ Click the Source Control icon (looks like a branch).
 
 Your code is now saved online!
 
-<!-- TODO: add screenshot of github to show how the code is now in GitHub -->
+### 7.1 (b) In the terminal
 
-<!-- TODO: add general tip on writing commit messages -->
-<!-- TODO: add warning on COMMIT_EDITMSG when you forget to write a commit message -->
+<!-- TODO: screenshot -->
+<!-- TODO: show how to see the diff -->
+<!-- TODO: note on staging each file (vs all) -->
+
+Use `git status` to see the status of your changes:
+
+```bash
+git status
+```
+{: .copyable }
+
+You'll see an output like this:
+
+```bash
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Let's 'stage' the files we just created so we can commit and push to GitHub.
+
+<aside class="tip">
+  You will only "commit" files that have been staged first.
+</aside>
+
+```bash
+git add index.html
+git add bin/server
+```
+{: .copyable }
+
+<aside class="tip">
+  Use the tab key to autocomplete file and folder names in the terminal. ⏱️ This is a HUGE time saver.
+</aside>
+
+Let's see the status of our changes now using `git status`:
+
+```bash
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   bin/server
+        new file:   index.html
+```
+
+We've now "staged" our files. Let's commit our changes and push to GitHub.
+
+```bash
+git commit -m "Add index.html with hello world and bin/server script"
+```
+{: .copyable }
+
+You'll see an output like this confirming the commit. This means we've committed locally.
+
+```bash
+[main 935f4e3] Add index.html with hello world and bin/server script
+ 2 files changed, 4 insertions(+)
+ create mode 100755 bin/server
+ create mode 100644 index.html
+```
+
+<aside class="tip">
+  Enter <code>git log</code> in the termianl to see your commit history.
+</aside>
+
+Now we're ready to push to our commits to GitHub:
+
+```bash
+git push
+```
+
+If succesful you'll see an output like this:
+
+```bash
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 458 bytes | 458.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/heratyian-tta/hello-world
+   5cf5cfb..935f4e3  main -> main
+```
+
+### 7.2 Confirm In GitHub
+
+Go to your repo in GitHub to confirm your files have been properly staged, committed, and pushed. You should see the `index.html` and `bin/server` files now in GitHub.
+
+<aside class="tip">
+  Enter <code>git remote -v</code> in the terminal to get a link to your repository in GitHub.
+</aside>
+
+![github repo completed](assets/completed-repo.png)
+
+Your code is now safely saved online!
+
+<!-- TODO: add aside warning on COMMIT_EDITMSG when you forget to write a commit message -->
+
+
 
 <!-- TODO: move to aside? -->
 ## Manage Codespaces (and Credits)
