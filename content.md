@@ -114,7 +114,7 @@ python -m http.server 3000
   <a href="https://docs.python.org/3/library/http.server.html" target="_blank">📘 Docs: http.server</a>
 </aside>
 
-GitHub will show a URL (a "forwarded port") to preview your site. Click the ports tab in the bottom panel. Click on the 🌐 icon to open your app in a browser.
+GitHub will show a URL (a "forwarded port") to preview your site. Click the ports tab in the bottom panel. Click on the 🌐 icon to open your app in a browser tab.
 
 ![ports tab](assets/ports.png)
 
