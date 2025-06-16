@@ -19,6 +19,8 @@ Already have an account? You're good to go!
 
 ## 1. Create a Repository
 
+**Goal**: Set up a new project on GitHub using a ready-made template.
+
 <video src="assets/create-repo-from-template.mp4" autoplay loop muted playsinline></video>
 
 A repository (or "repo") is where your project lives.
@@ -44,6 +46,8 @@ Then:
 
 ## 2. Launch a Codespace
 
+**Goal**: Open your GitHub project in a cloud-based development environment — no setup required.
+
 ![create codespace on main](assets/create-codespace-on-main.png)
 
 Go to your new repo and:
@@ -59,6 +63,8 @@ Your browser will open a full development environment, no installs required!
 </aside>
 
 ## 3. Explore the Codespace
+
+**Goal**: Learn your way around the Codespace layout so you know where to find and write your code.
 
 ![codespace layout](assets/vscode.png)
 
@@ -96,6 +102,8 @@ Here’s a quick tour of the layout:
 </aside>
 
 ## 4. Start a Local Server
+
+**Goal**: Run a local development server to view your project in the browser.
 
 <video src="assets/starting-http-server-and-port.mp4" autoplay loop muted playsinline></video>
 
@@ -146,6 +154,8 @@ Once you add <code>index.html</code>, that file will be shown automatically inst
 
 ## 5. Add an index.html Page
 
+**Goal**: Create your first web page and see it live in the browser.
+
 <video src="assets/create-index-html.mp4" autoplay loop muted playsinline></video>
 
 Create a new file named `index.html` and add:
@@ -178,6 +188,8 @@ Refresh the preview to see it live.
 </aside>
 
 ## 6. Create a `bin/server` Script
+
+**Goal**: Automate server startup with a simple script so you can launch your app with one command.
 
 <video src="assets/create-bin-server.mp4" autoplay loop muted playsinline></video>
 
@@ -217,6 +229,8 @@ bin/server
 </aside>
 
 ## 7. Save Your Work with Git
+
+**Goal**: Save your project changes and push them to GitHub so your work is safely backed up online.
 
 <aside class="warning">
   Codespaces are temporary environments. Saving your code is not enough, you must commit and push to GitHub to avoid losing your work.
