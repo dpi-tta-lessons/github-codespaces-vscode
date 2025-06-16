@@ -167,6 +167,19 @@ Refresh the preview to see it live.
   <img src="assets/explorer-new-file-folder.png" alt="vscode explorer new file / folder">
 </aside>
 
+<aside>
+  🛠️ Try It:
+
+  Edit your h1 to say your name, like:
+
+  <pre>
+    <code>
+      <h1>Hello from Ian!</h1>
+    </code>
+  </pre>
+
+</aside>
+
 ## 6. Create a `bin/server` Script
 
 <video src="assets/create-bin-server.mp4" autoplay loop muted playsinline></video>
@@ -222,8 +235,8 @@ The source control tab in the left pane will also indicate that you have '2 pend
 
 There are two ways to save your work to GitHub:
 
-1. Use the VS Code Source Control Tab (beginner-friendly)
-2. Use Git commands in the terminal (if you're comfortable with the command line)
+- (a) Use the VS Code Source Control Tab (beginner-friendly)
+- (b) Use Git commands in the terminal (if you're comfortable with the command line)
 
 Both methods achieve the same result.
 
