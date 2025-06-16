@@ -178,13 +178,7 @@ Refresh the preview to see it live.
 </aside>
 
 <aside>
-  🛠️ Try It:
-
-  Edit your h1 to say your name, like:
-
-  `<h1>Hello from Ian!</h1>`
-
-  Then refresh your preview tab to see your personalized message.
+  🛠️ Try It: Edit your h1 to say your name, like: <code>Hello from Ian!</code>. Then refresh your preview tab to see your personalized message.
 </aside>
 
 ## 6. Create a `bin/server` Script
