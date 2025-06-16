@@ -172,12 +172,9 @@ Refresh the preview to see it live.
 
   Edit your h1 to say your name, like:
 
-  <pre>
-    <code>
-      <h1>Hello from Ian!</h1>
-    </code>
-  </pre>
+  `<h1>Hello from Ian!</h1>`
 
+  Then refresh your preview tab to see your personalized message.
 </aside>
 
 ## 6. Create a `bin/server` Script
@@ -327,7 +324,7 @@ You'll see an output like this confirming the commit. This means we've committed
 ```
 
 <aside class="tip">
-  Enter <code>git log</code> in the termianl to see your commit history.
+  Enter <code>git log</code> in the terminal to see your commit history.
 </aside>
 
 Now we're ready to push to our commits to GitHub. Enter this Git command in the terminal:
