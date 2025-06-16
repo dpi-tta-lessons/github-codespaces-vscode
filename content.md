@@ -303,7 +303,7 @@ git add bin/server
   Use the tab key to autocomplete file and folder names in the terminal. ⏱️ This is a HUGE time saver.
 </aside>
 
-Let's see the status of our changes now using `git status`:
+Let's see the status of our changes now using `git status`. You should see an output like this:
 
 ```bash
 On branch main
