@@ -331,6 +331,7 @@ You'll see an output like this confirming the commit. This means we've committed
  create mode 100644 index.html
 ```
 
+<!-- TODO: may need to explain how to exit vim using 'q' 😅 -->
 <aside class="tip">
   Enter <code>git log</code> in the terminal to see your commit history.
 </aside>
@@ -390,6 +391,7 @@ Go to your repo in GitHub to verify your files have been properly staged, commit
 </aside>
 
 <aside class="warning">
+  <h3>COMMIT_EDITMSG</h3>
   If you forget to add a commit message (like just typing <code>git commit</code> without `-m`), Git will open a special screen called <code>COMMIT_EDITMSG</code>. This can be confusing.
 
   All commits must have a message. So, if you see this pop up, just type your message, save, and close the tab.
