@@ -396,7 +396,6 @@ Go to your repo in GitHub to verify your files have been properly staged, commit
 
   All commits must have a message. So, if you see this pop up, just type your message, save, and close the tab.
 
-  <!-- `Ctrl + X`, then `Y`, then `Enter` if you're in nano. -->
   <video src="assets/commit_edtmsg_gui.mp4" autoplay loop muted playsinline></video>
 </aside>
 
