@@ -206,8 +206,6 @@ bin/server
   The <code>bin</code> folder is a convention for small executable scripts. The <code>#!/usr/bin/env</code> line (a "shebang") tells the system which interpreter to use for the script. (in our case, <code>bash</code>, the same shell we use in the terminal)
 </aside>
 
-<!-- TODO: refine this section (version control) -->
-
 ## 7. Save Your Work with Git
 
 <aside class="warning">
@@ -229,9 +227,6 @@ There are two ways to save your work to GitHub:
 
 Both methods achieve the same result.
 
-<!-- TODO: aside on staging, then committing process -->
-<!-- TODO: aside on writing good commit messages -->
-
 ### 7.1 (a) In the VS Code Source Control Tab
 
 <video src="assets/source-control-tab-commit-push-sync.mp4" autoplay loop muted playsinline></video>
@@ -240,8 +235,8 @@ Click the Source Control icon (looks like a branch).
 
 ![source control icon](assets/source-control-icon.png)
 
-- Write a commit message "Add index.html with hello world and bin/server script"
 - Stage the files you want to commit (click the '+' next to each file)
+- Write a commit message "Add index.html with hello world and bin/server script"
 - Click '✓ Commit' to commit
 - Click 'Sync Changes' to push to GitHub
 
@@ -252,10 +247,6 @@ Click the Source Control icon (looks like a branch).
 Your code is now saved online!
 
 ### 7.1 (b) In the terminal
-
-<!-- TODO: screenshot -->
-<!-- TODO: show how to see the diff -->
-<!-- TODO: note on staging each file (vs all) -->
 
 Use `git status` to see the status of your changes:
 
@@ -346,9 +337,29 @@ To https://github.com/heratyian-tta/hello-world
    5cf5cfb..935f4e3  main -> main
 ```
 
+Your code is now safely saved online!
+
+<aside class="tip">
+  Once a file has been committed and is being tracked by Git, use <code>git diff</code> to compare your changes with the previous commit.
+
+  <pre>
+    <code>
+      diff --git a/index.html b/index.html
+      index 6b5d288..ee9e459 100644
+      --- a/index.html
+      +++ b/index.html
+      @@ -1 +1 @@
+      -<h1>Hello, world!</h1>
+      \ No newline at end of file
+      +<h1>Hello, world!!!</h1>
+      \ No newline at end of file
+    </code>
+  </pre>
+</aside>
+
 ### 7.2 Confirm In GitHub
 
-Go to your repo in GitHub to confirm your files have been properly staged, committed, and pushed. You should see the `index.html` and `bin/server` files now in GitHub.
+Go to your repo in GitHub to verify your files have been properly staged, committed, and pushed. You should now see the `index.html` and `bin/server` files in GitHub.
 
 <aside class="tip">
   Enter <code>git remote -v</code> in the terminal to get a link to your repository in GitHub.
@@ -356,22 +367,27 @@ Go to your repo in GitHub to confirm your files have been properly staged, commi
 
 ![github repo completed](assets/completed-repo.png)
 
-Your code is now safely saved online!
-
-<!-- TODO: add aside warning on COMMIT_EDITMSG when you forget to write a commit message -->
-
-
-
-<!-- TODO: move to aside? -->
-## Manage Codespaces (and Credits)
-
-<!-- TODO: add screenshot -->
-Each GitHub user gets limited free hours for Codespaces. To manage or delete your environments:
-
-- Go to [https://github.com/codespaces](https://github.com/codespaces)
-- Click the "..." next to a Codespace to stop or delete it
-
 <aside class="tip">
+  <strong>Write commit messages like you're telling a teammate what changed.</strong> Use the present tense (e.g., "Add homepage" or "Fix broken link") and keep it short but clear. Aim for what changed and why — not just "update" or "stuff" or "changes".
+</aside>
+
+<aside class="warning">
+  If you forget to add a commit message (like just typing <code>git commit</code> without `-m`), Git will open a special screen called <code>COMMIT_EDITMSG</code>. This can be confusing.
+
+  All commits must have a message. So, if you see this pop up, just type your message, save, and close the editor.
+
+  <!-- `Ctrl + X`, then `Y`, then `Enter` if you're in nano. -->
+  <video src="assets/source-control-tab-commit-push-sync.mp4" autoplay loop muted playsinline></video>
+</aside>
+
+<aside class="danger">
+  Each GitHub user gets limited free hours for Codespaces. To manage or delete your environments:
+
+  <ol>
+    <li>Go to <a href="https://github.com/codespaces" target="_blank">https://github.com/codespaces</a></li>
+    <li>Click the "..." next to a Codespace to stop or delete it</li>
+  </ol>
+
   Deleting unused Codespaces frees up your quota and prevents unnecessary charges.
 </aside>
 
