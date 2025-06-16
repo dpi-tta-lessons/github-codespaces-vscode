@@ -317,13 +317,13 @@ You'll see an output like this confirming the commit. This means we've committed
   Enter <code>git log</code> in the termianl to see your commit history.
 </aside>
 
-Now we're ready to push to our commits to GitHub:
+Now we're ready to push to our commits to GitHub. Enter this Git command in the terminal:
 
 ```bash
 git push
 ```
 
-If succesful you'll see an output like this:
+If successful you'll see an output like this:
 
 ```bash
 Enumerating objects: 6, done.
