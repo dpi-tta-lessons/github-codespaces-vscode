@@ -172,9 +172,17 @@ Refresh the preview to see it live.
 </aside>
 
 <aside class="tip">
-  Use the vs code explorer 'new file' and 'new folder' buttons.
+  Use the VS Code explorer 'new file' and 'new folder' buttons.
 
   <img src="assets/explorer-new-file-folder.png" alt="vscode explorer new file / folder">
+</aside>
+
+<aside class="tip">
+  Use the terminal to create files and folders:
+  <ul>
+    <li>Enter <code>touch index.html</code> to create a new index.html file</li>
+    <li>Enter <code>mkdir bin</code> to create a new bin folder</li>
+  </ul>
 </aside>
 
 <aside>
