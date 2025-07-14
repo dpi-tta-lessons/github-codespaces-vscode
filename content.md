@@ -128,6 +128,7 @@ GitHub will show a URL (a "forwarded port") to preview your site. Click the port
 
 <aside class="tip">
   If you'd like to access your app from any device, set the port visibility to <strong>public</strong>. This way you can access your app from your phone and share the link with friends.
+  <img src="assets/port-visibility-public.png" alt="set port visibility to public">
 </aside>
 
 <aside class="tip">
